@@ -39,8 +39,8 @@
                                     <constraint firstAttribute="height" constant="80" id="o1g-g9-OP4"/>
                                 </constraints>
                             </view>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Z8t-mc-u1v">
-                                <rect key="frame" x="36" y="100" width="343" height="547"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Z8t-mc-u1v">
+                                <rect key="frame" x="20" y="100" width="335" height="547"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="xja-PC-5Q0">
                                     <size key="itemSize" width="50" height="50"/>
@@ -68,9 +68,10 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="6CH-bu-nYu" secondAttribute="trailing" id="2RJ-ao-7bJ"/>
                             <constraint firstItem="6CH-bu-nYu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="EPX-MH-SAg"/>
-                            <constraint firstItem="Z8t-mc-u1v" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HIN-EY-Q9L"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Z8t-mc-u1v" secondAttribute="bottom" constant="20" id="dIg-DI-tXw"/>
+                            <constraint firstAttribute="trailing" secondItem="Z8t-mc-u1v" secondAttribute="trailing" constant="20" id="eb7-oj-nZc"/>
                             <constraint firstItem="Z8t-mc-u1v" firstAttribute="top" secondItem="6CH-bu-nYu" secondAttribute="bottom" constant="20" id="gxj-i2-TI5"/>
+                            <constraint firstItem="Z8t-mc-u1v" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="l4B-WB-CCP"/>
                             <constraint firstItem="6CH-bu-nYu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ltT-aU-ndj"/>
                         </constraints>
                     </view>
